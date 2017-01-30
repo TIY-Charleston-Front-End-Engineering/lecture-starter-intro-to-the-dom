@@ -1,0 +1,34 @@
+*{ box-sizing: border-box }
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+   width: 100%;
+   display: block;
+}
+
+.demos {
+	padding: none;
+	color: #fff;
+	list-style-type: none;
+}
+.demos li {display: block; margin: 10px; }
+
+.demos a { color: #fff; display: block; padding: 10px;}
+
+.demos li:nth-of-type(1) a{background: #913D88}
+.demos li:nth-of-type(2) a{background: #EF4836}
+.demos li:nth-of-type(3) a{background: #F2784B}
+.demos li:nth-of-type(4){background: #F9BF3B}
+.demos li  a:hover { background: #ABB7B7;}
+
+#app-container{
+	max-width: 800px;
+	margin: 0 auto;
+}
