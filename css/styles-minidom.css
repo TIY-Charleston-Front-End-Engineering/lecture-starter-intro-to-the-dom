@@ -1,0 +1,48 @@
+*{ box-sizing: border-box }
+
+body{
+	font-family: sans-serif;
+}
+img {
+   width: 100%;
+   display: block;
+}
+
+nav{
+	border-bottom: 2px solid #333;
+	padding: 10px;
+}
+
+.cool-bg{
+	background: lightblue;
+	padding: 40px;
+}
+
+.more-info{
+	background: navy;
+	color: #fff;
+}
+
+.site-logo{
+ display: inline-block;
+ width: 120px;
+ margin-right: 100px;
+}
+
+button{
+	padding: 13px;
+	border: 0;
+	background: lightgreen;
+}
+
+footer {
+
+	text-align: right;
+	background: #ddd;
+	padding: 14px;
+}
+
+footer > * {
+	display: inline-block;
+	width: 80px;
+}
